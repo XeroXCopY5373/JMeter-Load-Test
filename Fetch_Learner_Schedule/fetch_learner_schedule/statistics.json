@@ -1,0 +1,34 @@
+{
+  "/api/learner/fetch_schedule?user_uli=DRM-99-229-09083-001" : {
+    "transaction" : "/api/learner/fetch_schedule?user_uli=DRM-99-229-09083-001",
+    "sampleCount" : 1671,
+    "errorCount" : 1551,
+    "errorPct" : 92.81867,
+    "meanResTime" : 2078.1795332136458,
+    "medianResTime" : 1428.0,
+    "minResTime" : 252.0,
+    "maxResTime" : 25354.0,
+    "pct1ResTime" : 2643.0,
+    "pct2ResTime" : 3548.9999999999986,
+    "pct3ResTime" : 22831.48,
+    "throughput" : 7.8927604823511075,
+    "receivedKBytesPerSec" : 4396.265351523938,
+    "sentKBytesPerSec" : 2.119637824850151
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 1671,
+    "errorCount" : 1551,
+    "errorPct" : 92.81867,
+    "meanResTime" : 2078.1795332136458,
+    "medianResTime" : 1428.0,
+    "minResTime" : 252.0,
+    "maxResTime" : 25354.0,
+    "pct1ResTime" : 2643.0,
+    "pct2ResTime" : 3548.9999999999986,
+    "pct3ResTime" : 22831.48,
+    "throughput" : 7.8927604823511075,
+    "receivedKBytesPerSec" : 4396.265351523938,
+    "sentKBytesPerSec" : 2.119637824850151
+  }
+}

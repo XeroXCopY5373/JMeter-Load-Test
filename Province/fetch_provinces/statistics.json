@@ -1,0 +1,34 @@
+{
+  "/api/tesda/provinces" : {
+    "transaction" : "/api/tesda/provinces",
+    "sampleCount" : 1706,
+    "errorCount" : 1587,
+    "errorPct" : 93.02462,
+    "meanResTime" : 2042.293669402108,
+    "medianResTime" : 1438.0,
+    "minResTime" : 260.0,
+    "maxResTime" : 24746.0,
+    "pct1ResTime" : 2269.3999999999996,
+    "pct2ResTime" : 3187.2999999999997,
+    "pct3ResTime" : 22856.570000000003,
+    "throughput" : 7.983079241186325,
+    "receivedKBytesPerSec" : 4482.992630910977,
+    "sentKBytesPerSec" : 1.855442245510103
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 1706,
+    "errorCount" : 1587,
+    "errorPct" : 93.02462,
+    "meanResTime" : 2042.293669402108,
+    "medianResTime" : 1438.0,
+    "minResTime" : 260.0,
+    "maxResTime" : 24746.0,
+    "pct1ResTime" : 2269.3999999999996,
+    "pct2ResTime" : 3187.2999999999997,
+    "pct3ResTime" : 22856.570000000003,
+    "throughput" : 7.983079241186325,
+    "receivedKBytesPerSec" : 4482.992630910977,
+    "sentKBytesPerSec" : 1.855442245510103
+  }
+}

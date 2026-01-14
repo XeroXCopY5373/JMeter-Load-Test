@@ -1,0 +1,34 @@
+{
+  "/api/learner/fetch/" : {
+    "transaction" : "/api/learner/fetch/",
+    "sampleCount" : 1462,
+    "errorCount" : 1368,
+    "errorPct" : 93.57045,
+    "meanResTime" : 2393.580711354309,
+    "medianResTime" : 1673.0,
+    "minResTime" : 284.0,
+    "maxResTime" : 28359.0,
+    "pct1ResTime" : 2838.6000000000017,
+    "pct2ResTime" : 4674.099999999996,
+    "pct3ResTime" : 23107.949999999997,
+    "throughput" : 6.616941542806452,
+    "receivedKBytesPerSec" : 3709.5394980167844,
+    "sentKBytesPerSec" : 1.5314601031690713
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 1462,
+    "errorCount" : 1368,
+    "errorPct" : 93.57045,
+    "meanResTime" : 2393.580711354309,
+    "medianResTime" : 1673.0,
+    "minResTime" : 284.0,
+    "maxResTime" : 28359.0,
+    "pct1ResTime" : 2838.6000000000017,
+    "pct2ResTime" : 4674.099999999996,
+    "pct3ResTime" : 23107.949999999997,
+    "throughput" : 6.616941542806452,
+    "receivedKBytesPerSec" : 3709.5394980167844,
+    "sentKBytesPerSec" : 1.5314601031690713
+  }
+}
