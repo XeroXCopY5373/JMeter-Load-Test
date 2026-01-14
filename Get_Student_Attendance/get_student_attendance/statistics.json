@@ -1,0 +1,34 @@
+{
+  "/api/learner/get_student_attendance?isOngoing=true&user_uli=DRM-99-229-09083-001&schedule_id=4825" : {
+    "transaction" : "/api/learner/get_student_attendance?isOngoing=true&user_uli=DRM-99-229-09083-001&schedule_id=4825",
+    "sampleCount" : 1534,
+    "errorCount" : 1414,
+    "errorPct" : 92.177315,
+    "meanResTime" : 2261.8637548891743,
+    "medianResTime" : 1519.0,
+    "minResTime" : 256.0,
+    "maxResTime" : 27787.0,
+    "pct1ResTime" : 2880.0,
+    "pct2ResTime" : 3882.25,
+    "pct3ResTime" : 23074.45,
+    "throughput" : 7.298575493153423,
+    "receivedKBytesPerSec" : 4041.467357987932,
+    "sentKBytesPerSec" : 2.2451672659602813
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 1534,
+    "errorCount" : 1414,
+    "errorPct" : 92.177315,
+    "meanResTime" : 2261.8637548891743,
+    "medianResTime" : 1519.0,
+    "minResTime" : 256.0,
+    "maxResTime" : 27787.0,
+    "pct1ResTime" : 2880.0,
+    "pct2ResTime" : 3882.25,
+    "pct3ResTime" : 23074.45,
+    "throughput" : 7.298575493153423,
+    "receivedKBytesPerSec" : 4041.467357987932,
+    "sentKBytesPerSec" : 2.2451672659602813
+  }
+}
