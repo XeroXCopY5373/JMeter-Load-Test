@@ -22,35 +22,35 @@
   </table>
 
   <script>
-    const reports = [
-      { name: "Provinces → Fetch Province", path: "./Provinces/fetch_province/" },
-      { name: "Cities → Fetch City", path: "./Cities/fetch_city/" },
-      
-    ];
 
-    const tbody = document.querySelector("#reports-table tbody");
-    reports.forEach((report, i) => {
-      const tr = document.createElement("tr");
+    fetch('jmeterLoadTest.json')
+      .then(response => response.json())
+      .then(reports => {
+        const tbody = document.querySelector('#reports-table tbody');
 
-      const tdIndex = document.createElement("td");
-      tdIndex.textContent = i + 1;
+        reports.forEach((report, index) => {
+          const tr = document.createElement('tr');
 
-      const tdName = document.createElement("td");
-      tdName.textContent = report.name;
+          const tdIndex = document.createElement('td');
+          tdIndex.textContent = index + 1;
 
-      const tdLink = document.createElement("td");
-      const a = document.createElement("a");
-      a.href = report.path;
-      a.textContent = "Open";
-      a.target = "_blank";
-      tdLink.appendChild(a);
+          const tdName = document.createElement('td');
+          tdName.textContent = report.name;
 
-      tr.appendChild(tdIndex);
-      tr.appendChild(tdName);
-      tr.appendChild(tdLink);
+          const tdLink = document.createElement('td');
+          const a = document.createElement('a');
+          a.href = report.path;
+          a.textContent = 'Open';
+          tdLink.appendChild(a);
 
-      tbody.appendChild(tr);
-    });
+          tr.appendChild(tdIndex);
+          tr.appendChild(tdName);
+          tr.appendChild(tdLink);
+
+          tbody.appendChild(tr);
+        });
+      })
+      .catch(err => console.error('Error loading reports.json:', err));
   </script>
 
 </body>
