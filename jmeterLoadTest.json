@@ -8,5 +8,6 @@
   { "name": "Program Fetch", "path": "./Program_Fetch/fetch_program/" },
   { "name": "Program Fetch With ID", "path": "./Program_Fetch_With_ID/fetch_program_id/" },
   { "name": "Province", "path": "./Province/fetch_provinces/" },
-  { "name": "Regions", "path": "./Regions/fetch_regions/" }
+  { "name": "Regions", "path": "./Regions/fetch_regions/" },
+  { "name": "Trainer Assessments", "path": "./Trainer_Assignment/fetch_trainer_assignment"}
 ]
