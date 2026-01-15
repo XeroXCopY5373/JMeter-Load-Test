@@ -14,5 +14,5 @@
   { "name": "Client Type", "path": "./Client_Types/client_types/"},
   { "name": "Check Class", "path": "./Check_Class/check_class/"},
   { "name": "Filters", "path": "./Filters/filters"},
-  { "name": "Filters", "path": "./Educational_Attainment/educational_attainment"}
+  { "name": "Educational Attainment", "path": "./Educational_Attainment/educational_attainment"}
 ]
