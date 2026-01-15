@@ -10,5 +10,9 @@
   { "name": "Province", "path": "./Province/fetch_provinces/" },
   { "name": "Regions", "path": "./Regions/fetch_regions/" },
   { "name": "Trainer Assessments", "path": "./Trainer_Assignment/fetch_trainer_assignment/"},
-  { "name": "Learner With ID", "path": "./Fetch_Learner_With_ID/fetch_learner_with_id/"}
+  { "name": "Learner With ID", "path": "./Fetch_Learner_With_ID/fetch_learner_with_id/"},
+  { "name": "Client Type", "path": "./Client_Types/client_types/"},
+  { "name": "Check Class", "path": "./Check_Class/check_class/"},
+  { "name": "Filters", "path": "./Filters/filters"},
+  { "name": "Filters", "path": "./Educational_Attainment/educational_attainment"}
 ]
