@@ -1,0 +1,34 @@
+{
+  "api/learner/fetch/VNS-88-600-02050-001/" : {
+    "transaction" : "api/learner/fetch/VNS-88-600-02050-001/",
+    "sampleCount" : 1664,
+    "errorCount" : 1544,
+    "errorPct" : 92.78846,
+    "meanResTime" : 2091.8563701923053,
+    "medianResTime" : 2047.5,
+    "minResTime" : 292.0,
+    "maxResTime" : 22145.0,
+    "pct1ResTime" : 3073.5,
+    "pct2ResTime" : 3601.75,
+    "pct3ResTime" : 4916.899999999993,
+    "throughput" : 7.5528906601063035,
+    "receivedKBytesPerSec" : 4202.323459265908,
+    "sentKBytesPerSec" : 1.902974404597096
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 1664,
+    "errorCount" : 1544,
+    "errorPct" : 92.78846,
+    "meanResTime" : 2091.8563701923053,
+    "medianResTime" : 2047.5,
+    "minResTime" : 292.0,
+    "maxResTime" : 22145.0,
+    "pct1ResTime" : 3073.5,
+    "pct2ResTime" : 3601.75,
+    "pct3ResTime" : 4916.899999999993,
+    "throughput" : 7.5528906601063035,
+    "receivedKBytesPerSec" : 4202.323459265908,
+    "sentKBytesPerSec" : 1.902974404597096
+  }
+}
