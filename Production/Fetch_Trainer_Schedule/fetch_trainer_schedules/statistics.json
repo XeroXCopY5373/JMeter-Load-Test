@@ -1,0 +1,34 @@
+{
+  "api/trainer/schedules?from_date=01/01/2025" : {
+    "transaction" : "api/trainer/schedules?from_date=01/01/2025",
+    "sampleCount" : 3187,
+    "errorCount" : 3067,
+    "errorPct" : 96.2347,
+    "meanResTime" : 4886.332601192346,
+    "medianResTime" : 4975.0,
+    "minResTime" : 354.0,
+    "maxResTime" : 9518.0,
+    "pct1ResTime" : 5548.400000000001,
+    "pct2ResTime" : 5723.6,
+    "pct3ResTime" : 7646.279999999998,
+    "throughput" : 15.682974598206815,
+    "receivedKBytesPerSec" : 44.73661963189052,
+    "sentKBytesPerSec" : 3.87479743490852
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 3187,
+    "errorCount" : 3067,
+    "errorPct" : 96.2347,
+    "meanResTime" : 4886.332601192346,
+    "medianResTime" : 4975.0,
+    "minResTime" : 354.0,
+    "maxResTime" : 9518.0,
+    "pct1ResTime" : 5548.400000000001,
+    "pct2ResTime" : 5723.6,
+    "pct3ResTime" : 7646.279999999998,
+    "throughput" : 15.682974598206815,
+    "receivedKBytesPerSec" : 44.73661963189052,
+    "sentKBytesPerSec" : 3.87479743490852
+  }
+}
