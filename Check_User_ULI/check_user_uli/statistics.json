@@ -1,0 +1,34 @@
+{
+  "/api/check_user_uli/ASA-07-413-01029-001" : {
+    "transaction" : "/api/check_user_uli/ASA-07-413-01029-001",
+    "sampleCount" : 1595,
+    "errorCount" : 1475,
+    "errorPct" : 92.47649,
+    "meanResTime" : 2197.5084639498423,
+    "medianResTime" : 2050.0,
+    "minResTime" : 226.0,
+    "maxResTime" : 22222.0,
+    "pct1ResTime" : 3307.4000000000005,
+    "pct2ResTime" : 4046.9999999999927,
+    "pct3ResTime" : 7966.679999999989,
+    "throughput" : 7.213408346750122,
+    "receivedKBytesPerSec" : 3996.2737098047514,
+    "sentKBytesPerSec" : 1.8033520866875303
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 1595,
+    "errorCount" : 1475,
+    "errorPct" : 92.47649,
+    "meanResTime" : 2197.5084639498423,
+    "medianResTime" : 2050.0,
+    "minResTime" : 226.0,
+    "maxResTime" : 22222.0,
+    "pct1ResTime" : 3307.4000000000005,
+    "pct2ResTime" : 4046.9999999999927,
+    "pct3ResTime" : 7966.679999999989,
+    "throughput" : 7.213408346750122,
+    "receivedKBytesPerSec" : 3996.2737098047514,
+    "sentKBytesPerSec" : 1.8033520866875303
+  }
+}

@@ -133,7 +133,7 @@ $(document).ready(function() {
         widgets: ['zebra']
     });
 
-    var data = {"OkPercent": 38.114517061885486, "KoPercent": 61.885482938114514};
+    var data = {"OkPercent": 6.666666666666667, "KoPercent": 93.33333333333333};
     var dataset = [
         {
             "label" : "FAIL",
@@ -173,7 +173,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.29120879120879123, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.01517706576728499, 500, 1500, "/api/learner/client-types"], "isController": false}, {"data": [0.01716549295774648, 500, 1500, "/api/learner/client-types-1"], "isController": false}, {"data": [0.8534330985915493, 500, 1500, "/api/learner/client-types-0"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.03784722222222222, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.03784722222222222, 500, 1500, "/api/learner/client-types"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 3458, 2140, 61.885482938114514, 9128.15442452287, 32, 58024, 7635.5, 21139.3, 29989.799999999985, 50366.46, 15.658537027142067, 5672.584619438231, 4.983290919135294], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["/api/learner/client-types", 1186, 1095, 92.32715008431703, 13751.147554806055, 260, 58024, 8509.0, 45626.1, 49212.799999999996, 51231.47999999999, 5.370452548927267, 2836.5974329882088, 2.491645459567647], "isController": false}, {"data": ["/api/learner/client-types-1", 1136, 1045, 91.9894366197183, 10389.798415492964, 222, 36900, 8353.0, 24747.7, 28142.899999999998, 30043.0, 6.18975747701998, 3410.2509216867634, 1.5111712590380812], "isController": false}, {"data": ["/api/learner/client-types-0", 1136, 0, 0.0, 3040.040492957747, 32, 22111, 51.0, 21112.0, 21129.0, 21175.52, 5.687479034930934, 2.0717086719035533, 1.3663279712822363], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 1440, 1344, 93.33333333333333, 2443.2124999999996, 220, 25984, 1393.5, 2707.5000000000023, 5035.100000000008, 23286.59, 6.5321527072144, 3652.275604854943, 1.6330381768036], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["/api/learner/client-types", 1440, 1344, 93.33333333333333, 2443.2124999999996, 220, 25984, 1393.5, 2707.5000000000023, 5035.100000000008, 23286.59, 6.5321527072144, 3652.275604854943, 1.6330381768036], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -217,7 +217,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["Non HTTP response code: org.apache.http.conn.HttpHostConnectException/Non HTTP response message: Connect to bsrs-api-staging.tesda.gov.ph:80 [bsrs-api-staging.tesda.gov.ph/52.221.70.202] failed: Connection timed out: connect", 50, 2.336448598130841, 1.4459224985540775], "isController": false}, {"data": ["429/Too Many Requests", 2090, 97.66355140186916, 60.43956043956044], "isController": false}]}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["429/Too Many Requests", 1344, 100.0, 93.33333333333333], "isController": false}]}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -228,7 +228,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 3458, 2140, "429/Too Many Requests", 2090, "Non HTTP response code: org.apache.http.conn.HttpHostConnectException/Non HTTP response message: Connect to bsrs-api-staging.tesda.gov.ph:80 [bsrs-api-staging.tesda.gov.ph/52.221.70.202] failed: Connection timed out: connect", 50, "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": ["/api/learner/client-types", 1186, 1095, "429/Too Many Requests", 1045, "Non HTTP response code: org.apache.http.conn.HttpHostConnectException/Non HTTP response message: Connect to bsrs-api-staging.tesda.gov.ph:80 [bsrs-api-staging.tesda.gov.ph/52.221.70.202] failed: Connection timed out: connect", 50, "", "", "", "", "", ""], "isController": false}, {"data": ["/api/learner/client-types-1", 1136, 1045, "429/Too Many Requests", 1045, "", "", "", "", "", "", "", ""], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 1440, 1344, "429/Too Many Requests", 1344, "", "", "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": ["/api/learner/client-types", 1440, 1344, "429/Too Many Requests", 1344, "", "", "", "", "", "", "", ""], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 

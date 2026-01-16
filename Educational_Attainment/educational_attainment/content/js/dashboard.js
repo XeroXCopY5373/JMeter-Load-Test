@@ -133,7 +133,7 @@ $(document).ready(function() {
         widgets: ['zebra']
     });
 
-    var data = {"OkPercent": 38.48465335908993, "KoPercent": 61.51534664091007};
+    var data = {"OkPercent": 8.01068090787717, "KoPercent": 91.98931909212283};
     var dataset = [
         {
             "label" : "FAIL",
@@ -173,7 +173,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.3541532517707663, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.0334835801674179, 500, 1500, "/api/learner/educational-attainment-1"], "isController": false}, {"data": [0.9971023824855119, 500, 1500, "/api/learner/educational-attainment-0"], "isController": false}, {"data": [0.03187379265936896, 500, 1500, "/api/learner/educational-attainment"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.04238985313751669, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.04238985313751669, 500, 1500, "/api/learner/educational-attainment"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 4659, 2866, 61.51534664091007, 1499.503541532523, 32, 11684, 1551.0, 3019.0, 3910.0, 6588.999999999985, 22.87714887578381, 8436.399754192795, 7.6852922004586235], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["/api/learner/educational-attainment-1", 1553, 1433, 92.2730199613651, 2193.401802962012, 233, 11644, 2004.0, 3507.4000000000005, 4621.2999999999965, 7268.200000000001, 7.639896691673841, 4223.186329710367, 1.939817519370311], "isController": false}, {"data": ["/api/learner/educational-attainment-0", 1553, 0, 0.0, 55.71989697359953, 32, 1964, 39.0, 68.60000000000014, 94.0, 366.6800000000003, 7.818478392202667, 2.924294164271114, 1.9546195980506664], "isController": false}, {"data": ["/api/learner/educational-attainment", 1553, 1433, 92.2730199613651, 2249.388924661951, 269, 11684, 2050.0, 3563.4000000000024, 4845.499999999999, 7380.700000000002, 7.625716291927936, 4218.199877096397, 3.8426461002293117], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 1498, 1378, 91.98931909212283, 2352.3838451268343, 230, 28084, 1522.0, 3036.4000000000005, 5430.149999999996, 23065.11, 6.742220341881881, 3715.57499612508, 1.6855550854704702], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["/api/learner/educational-attainment", 1498, 1378, 91.98931909212283, 2352.3838451268343, 230, 28084, 1522.0, 3036.4000000000005, 5430.149999999996, 23065.11, 6.742220341881881, 3715.57499612508, 1.6855550854704702], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -217,7 +217,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["429/Too Many Requests", 2866, 100.0, 61.51534664091007], "isController": false}]}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["429/Too Many Requests", 1378, 100.0, 91.98931909212283], "isController": false}]}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -228,7 +228,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 4659, 2866, "429/Too Many Requests", 2866, "", "", "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": ["/api/learner/educational-attainment-1", 1553, 1433, "429/Too Many Requests", 1433, "", "", "", "", "", "", "", ""], "isController": false}, {"data": [], "isController": false}, {"data": ["/api/learner/educational-attainment", 1553, 1433, "429/Too Many Requests", 1433, "", "", "", "", "", "", "", ""], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 1498, 1378, "429/Too Many Requests", 1378, "", "", "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": ["/api/learner/educational-attainment", 1498, 1378, "429/Too Many Requests", 1378, "", "", "", "", "", "", "", ""], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 

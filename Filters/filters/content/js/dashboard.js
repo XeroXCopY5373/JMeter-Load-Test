@@ -133,7 +133,7 @@ $(document).ready(function() {
         widgets: ['zebra']
     });
 
-    var data = {"OkPercent": 33.333333333333336, "KoPercent": 66.66666666666667};
+    var data = {"OkPercent": 6.666666666666667, "KoPercent": 93.33333333333333};
     var dataset = [
         {
             "label" : "FAIL",
@@ -173,7 +173,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.32148900169204736, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.9644670050761421, 500, 1500, "/api/learner/attendance-0"], "isController": false}, {"data": [0.0, 500, 1500, "/api/learner/attendance-1"], "isController": false}, {"data": [0.0, 500, 1500, "/api/learner/attendance"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.02795698924731183, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.02795698924731183, 500, 1500, "/api/scholarships/filters"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 3546, 2364, 66.66666666666667, 1947.6015228426356, 32, 49048, 730.5, 2798.0, 4401.549999999983, 26940.18999999964, 17.58387797403576, 7001.45722638623, 5.63233591355833], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["/api/learner/attendance-0", 1182, 0, 0.0, 788.9839255499161, 32, 22394, 38.0, 85.0, 342.24999999999955, 21144.53, 5.9171893851029, 2.1438254510480235, 1.4099552831690503], "isController": false}, {"data": ["/api/learner/attendance-1", 1182, 1182, 100.0, 2132.290186125212, 282, 27609, 1317.0, 3188.2000000000035, 4603.349999999993, 22716.74000000003, 6.558686930900738, 3914.879615651652, 1.5884319910775224], "isController": false}, {"data": ["/api/learner/attendance", 1182, 1182, 100.0, 2921.530456852791, 333, 49048, 1397.0, 3307.3, 5036.399999999994, 43778.280000000035, 5.861292658011921, 3500.728613193115, 2.816167956779165], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 1395, 1302, 93.33333333333333, 2513.1598566308267, 229, 24816, 1982.0, 3711.0000000000005, 4674.200000000001, 22219.719999999998, 6.375161092780301, 3564.4988741714, 1.5937902731950753], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["/api/scholarships/filters", 1395, 1302, 93.33333333333333, 2513.1598566308267, 229, 24816, 1982.0, 3711.0000000000005, 4674.200000000001, 22219.719999999998, 6.375161092780301, 3564.4988741714, 1.5937902731950753], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -217,7 +217,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["405/Method Not Allowed", 2364, 100.0, 66.66666666666667], "isController": false}]}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["429/Too Many Requests", 1302, 100.0, 93.33333333333333], "isController": false}]}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -228,7 +228,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 3546, 2364, "405/Method Not Allowed", 2364, "", "", "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": ["/api/learner/attendance-1", 1182, 1182, "405/Method Not Allowed", 1182, "", "", "", "", "", "", "", ""], "isController": false}, {"data": ["/api/learner/attendance", 1182, 1182, "405/Method Not Allowed", 1182, "", "", "", "", "", "", "", ""], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 1395, 1302, "429/Too Many Requests", 1302, "", "", "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": ["/api/scholarships/filters", 1395, 1302, "429/Too Many Requests", 1302, "", "", "", "", "", "", "", ""], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 
