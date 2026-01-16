@@ -14,5 +14,6 @@
   { "name": "Client Type", "path": "./Staging/Client_Types/client_types/"},
   { "name": "Check Class", "path": "./Staging/Check_Class/check_class/"},
   { "name": "Filters", "path": "./Staging/Filters/filters"},
-  { "name": "Filters", "path": "./Staging/Educational_Attainment/educational_attainment"}
+  { "name": "Educational Attainment", "path": "./Staging/Educational_Attainment/educational_attainment"},
+  { "name": "Check User ULI", "path": "./Staging/Check_User_ULI/check_user_uli"}
 ]

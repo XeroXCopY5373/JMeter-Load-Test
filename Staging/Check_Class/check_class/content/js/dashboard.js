@@ -133,7 +133,7 @@ $(document).ready(function() {
         widgets: ['zebra']
     });
 
-    var data = {"OkPercent": 36.51551312649165, "KoPercent": 63.48448687350835};
+    var data = {"OkPercent": 6.08339029391661, "KoPercent": 93.91660970608339};
     var dataset = [
         {
             "label" : "FAIL",
@@ -173,7 +173,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.32052505966587114, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.9360902255639098, 500, 1500, "/api/learner/check_class-0"], "isController": false}, {"data": [0.07368421052631578, 500, 1500, "/api/learner/check_class-1"], "isController": false}, {"data": [0.0, 500, 1500, "/api/learner/check_class-2"], "isController": false}, {"data": [0.0, 500, 1500, "/api/learner/check_class"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.03349282296650718, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.03349282296650718, 500, 1500, "/api/learner/check_class"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 2095, 1330, 63.48448687350835, 3804.610978520287, 32, 66951, 908.0, 7325.200000000004, 21939.799999999996, 64587.28, 8.316759361812776, 3165.9766246834074, 2.7192447380121556], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["/api/learner/check_class-0", 665, 0, 0.0, 1337.2315789473687, 32, 23391, 41.0, 141.79999999999995, 21110.0, 21245.72000000001, 3.1934613279036483, 1.1601246230274973, 0.7640605716175722], "isController": false}, {"data": ["/api/learner/check_class-1", 665, 565, 84.9624060150376, 2694.9338345864653, 287, 25566, 1188.0, 3425.999999999999, 21421.8, 21877.88, 2.8966316312174127, 1474.3243739437096, 0.7043567150128279], "isController": false}, {"data": ["/api/learner/check_class-2", 100, 100, 100.0, 13038.020000000002, 355, 25472, 21673.0, 23965.4, 24493.8, 25470.1, 0.4020941061045927, 241.43254082888683, 0.08717274565939412], "isController": false}, {"data": ["/api/learner/check_class", 665, 665, 100.0, 5993.184962406011, 432, 66951, 1372.0, 7591.399999999987, 64225.899999999994, 65019.74, 2.6399364827312426, 1582.9945965350832, 1.3596277664747916], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 1463, 1374, 93.91660970608339, 2352.3164730006856, 223, 25356, 1536.0, 3128.6000000000063, 4701.999999999999, 23103.239999999998, 7.257808469262214, 4083.350400988647, 1.8144521173155534], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["/api/learner/check_class", 1463, 1374, 93.91660970608339, 2352.3164730006856, 223, 25356, 1536.0, 3128.6000000000063, 4701.999999999999, 23103.239999999998, 7.257808469262214, 4083.350400988647, 1.8144521173155534], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -217,7 +217,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["403/Forbidden", 200, 15.037593984962406, 9.54653937947494], "isController": false}, {"data": ["429/Too Many Requests", 1130, 84.9624060150376, 53.937947494033416], "isController": false}]}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["429/Too Many Requests", 1374, 100.0, 93.91660970608339], "isController": false}]}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -228,7 +228,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 2095, 1330, "429/Too Many Requests", 1130, "403/Forbidden", 200, "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": ["/api/learner/check_class-1", 665, 565, "429/Too Many Requests", 565, "", "", "", "", "", "", "", ""], "isController": false}, {"data": ["/api/learner/check_class-2", 100, 100, "403/Forbidden", 100, "", "", "", "", "", "", "", ""], "isController": false}, {"data": ["/api/learner/check_class", 665, 665, "429/Too Many Requests", 565, "403/Forbidden", 100, "", "", "", "", "", ""], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 1463, 1374, "429/Too Many Requests", 1374, "", "", "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": ["/api/learner/check_class", 1463, 1374, "429/Too Many Requests", 1374, "", "", "", "", "", "", "", ""], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 
