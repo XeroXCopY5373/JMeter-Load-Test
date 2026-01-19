@@ -1,0 +1,34 @@
+{
+  "api/scholarships/rqms/submit" : {
+    "transaction" : "api/scholarships/rqms/submit",
+    "sampleCount" : 1524,
+    "errorCount" : 1523,
+    "errorPct" : 99.93438,
+    "meanResTime" : 2263.175853018379,
+    "medianResTime" : 1367.5,
+    "minResTime" : 258.0,
+    "maxResTime" : 27976.0,
+    "pct1ResTime" : 2894.0,
+    "pct2ResTime" : 4723.5,
+    "pct3ResTime" : 22825.0,
+    "throughput" : 7.546385014186609,
+    "receivedKBytesPerSec" : 16.942654096785855,
+    "sentKBytesPerSec" : 9.079244470193265
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 1524,
+    "errorCount" : 1523,
+    "errorPct" : 99.93438,
+    "meanResTime" : 2263.175853018379,
+    "medianResTime" : 1367.5,
+    "minResTime" : 258.0,
+    "maxResTime" : 27976.0,
+    "pct1ResTime" : 2894.0,
+    "pct2ResTime" : 4723.5,
+    "pct3ResTime" : 22825.0,
+    "throughput" : 7.546385014186609,
+    "receivedKBytesPerSec" : 16.942654096785855,
+    "sentKBytesPerSec" : 9.079244470193265
+  }
+}
