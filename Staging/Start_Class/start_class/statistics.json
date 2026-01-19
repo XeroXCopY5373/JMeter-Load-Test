@@ -1,0 +1,34 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 1323,
+    "errorCount" : 1245,
+    "errorPct" : 94.10431,
+    "meanResTime" : 2662.3151927437602,
+    "medianResTime" : 1636.0,
+    "minResTime" : 386.0,
+    "maxResTime" : 30974.0,
+    "pct1ResTime" : 3115.8000000000025,
+    "pct2ResTime" : 9014.599999999991,
+    "pct3ResTime" : 23181.04,
+    "throughput" : 5.938087693391801,
+    "receivedKBytesPerSec" : 13.525052464609356,
+    "sentKBytesPerSec" : 387.3674393736058
+  },
+  "api/trainer/start_schedule" : {
+    "transaction" : "api/trainer/start_schedule",
+    "sampleCount" : 1323,
+    "errorCount" : 1245,
+    "errorPct" : 94.10431,
+    "meanResTime" : 2662.3151927437602,
+    "medianResTime" : 1636.0,
+    "minResTime" : 386.0,
+    "maxResTime" : 30974.0,
+    "pct1ResTime" : 3115.8000000000025,
+    "pct2ResTime" : 9014.599999999991,
+    "pct3ResTime" : 23181.04,
+    "throughput" : 5.938087693391801,
+    "receivedKBytesPerSec" : 13.525052464609356,
+    "sentKBytesPerSec" : 387.3674393736058
+  }
+}
