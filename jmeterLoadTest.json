@@ -17,5 +17,6 @@
   { "name": "Educational Attainment", "path": "./Staging/Educational_Attainment/educational_attainment"},
   { "name": "Check User ULI", "path": "./Staging/Check_User_ULI/check_user_uli"},
   { "name": "Submit RQM", "path": "./Staging/Submit_RQM/submit_rqm/index.html"},
-  { "name": "Start Class", "path": "./Staging/Start_Class/start_class/index.html"}
+  { "name": "Start Class", "path": "./Staging/Start_Class/start_class/index.html"},
+  { "name": "Stop Class", "path": "./Staging/Stop_Class/stop_class/index.html"}
 ]
