@@ -1,0 +1,34 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 3201,
+    "errorCount" : 3080,
+    "errorPct" : 96.21993,
+    "meanResTime" : 1074.271790065608,
+    "medianResTime" : 1193.0,
+    "minResTime" : 160.0,
+    "maxResTime" : 1786.0,
+    "pct1ResTime" : 1282.0,
+    "pct2ResTime" : 1324.0,
+    "pct3ResTime" : 1482.0,
+    "throughput" : 15.956253645114177,
+    "receivedKBytesPerSec" : 37.01934243230681,
+    "sentKBytesPerSec" : 5.064240658849714
+  },
+  "api/learner/fetch_schedule?user_uli=MMA-89-928-17051-001" : {
+    "transaction" : "api/learner/fetch_schedule?user_uli=MMA-89-928-17051-001",
+    "sampleCount" : 3201,
+    "errorCount" : 3080,
+    "errorPct" : 96.21993,
+    "meanResTime" : 1074.271790065608,
+    "medianResTime" : 1193.0,
+    "minResTime" : 160.0,
+    "maxResTime" : 1786.0,
+    "pct1ResTime" : 1282.0,
+    "pct2ResTime" : 1324.0,
+    "pct3ResTime" : 1482.0,
+    "throughput" : 15.956253645114177,
+    "receivedKBytesPerSec" : 37.01934243230681,
+    "sentKBytesPerSec" : 5.064240658849714
+  }
+}
