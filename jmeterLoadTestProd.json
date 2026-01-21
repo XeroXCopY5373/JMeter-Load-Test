@@ -12,5 +12,6 @@
   { "name": "Cities", "path": "./Production/Cities/fetch_cities/index.html"},
   { "name": "Regions", "path": "./Production/Regions/fetch_regions/index.html"},
   { "name": "Get Student Attendance", "path": "./Production/Get_Student_Attendance/get_student_attendance/index.html"},
-  { "name": "Fetch User ULI", "path": "./Production/Fetch_User_ULI/fetch_user_uli/index.html"}
+  { "name": "Fetch User ULI", "path": "./Production/Fetch_User_ULI/fetch_user_uli/index.html"},
+  { "name": "Check Class", "path": "./Production/Check_Class/check_class/index.html"}
 ]
