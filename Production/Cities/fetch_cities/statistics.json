@@ -1,0 +1,34 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 2494,
+    "errorCount" : 2374,
+    "errorPct" : 95.18845,
+    "meanResTime" : 1376.8384121892552,
+    "medianResTime" : 1188.5,
+    "minResTime" : 242.0,
+    "maxResTime" : 10408.0,
+    "pct1ResTime" : 1290.5,
+    "pct2ResTime" : 1398.0,
+    "pct3ResTime" : 9291.300000000001,
+    "throughput" : 12.45237988246631,
+    "receivedKBytesPerSec" : 237.7628965560607,
+    "sentKBytesPerSec" : 3.465750260256737
+  },
+  "/api/tesda/cities" : {
+    "transaction" : "/api/tesda/cities",
+    "sampleCount" : 2494,
+    "errorCount" : 2374,
+    "errorPct" : 95.18845,
+    "meanResTime" : 1376.8384121892552,
+    "medianResTime" : 1188.5,
+    "minResTime" : 242.0,
+    "maxResTime" : 10408.0,
+    "pct1ResTime" : 1290.5,
+    "pct2ResTime" : 1398.0,
+    "pct3ResTime" : 9291.300000000001,
+    "throughput" : 12.45237988246631,
+    "receivedKBytesPerSec" : 237.7628965560607,
+    "sentKBytesPerSec" : 3.465750260256737
+  }
+}

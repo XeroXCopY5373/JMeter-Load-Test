@@ -7,5 +7,8 @@
   { "name": "Client Types", "path": "./Production/Client_Types/client_types/index.html" },
   { "name": "Scholarship Filters", "path": "./Production/Scholarship_Filters/check_scholarship_filter/index.html" },
   { "name": "Check User ULI", "path": "./Production/Check_User_ULI/check_user_uli/index.html" },
-  { "name": "Fetch Learner Schedule", "path": "./Production/Fetch_Learner_Schedules/learner_schedules/index.html"}
+  { "name": "Fetch Learner Schedule", "path": "./Production/Fetch_Learner_Schedules/learner_schedules/index.html"},
+  { "name": "Province", "path": "./Production/Province/fetch_provinces/index.html"},
+  { "name": "Cities", "path": "./Production/Cities/fetch_cities/index.html"},
+  { "name": "Regions", "path": "./Production/Regions/fetch_regions/index.html"}
 ]
