@@ -1,0 +1,34 @@
+{
+  "/api/scholarships/filters" : {
+    "transaction" : "/api/scholarships/filters",
+    "sampleCount" : 3173,
+    "errorCount" : 3053,
+    "errorPct" : 96.218094,
+    "meanResTime" : 1083.1468641664026,
+    "medianResTime" : 1183.0,
+    "minResTime" : 158.0,
+    "maxResTime" : 2224.0,
+    "pct1ResTime" : 1286.6,
+    "pct2ResTime" : 1343.2999999999997,
+    "pct3ResTime" : 1810.0,
+    "throughput" : 15.826462563657495,
+    "receivedKBytesPerSec" : 92.5756573758523,
+    "sentKBytesPerSec" : 4.528470245265279
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 3173,
+    "errorCount" : 3053,
+    "errorPct" : 96.218094,
+    "meanResTime" : 1083.1468641664026,
+    "medianResTime" : 1183.0,
+    "minResTime" : 158.0,
+    "maxResTime" : 2224.0,
+    "pct1ResTime" : 1286.6,
+    "pct2ResTime" : 1343.2999999999997,
+    "pct3ResTime" : 1810.0,
+    "throughput" : 15.826462563657495,
+    "receivedKBytesPerSec" : 92.5756573758523,
+    "sentKBytesPerSec" : 4.528470245265279
+  }
+}

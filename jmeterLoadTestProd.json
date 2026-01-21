@@ -5,7 +5,7 @@
   { "name": "Fetch Learner With ULI", "path": "./Production/Learner_Fetch_With_ULI/fetch_learner_with_uli/index.html" },
   { "name": "Educational Attainment", "path": "./Production/Educational_Attainment/educational_attainment/index.html" },
   { "name": "Client Types", "path": "./Production/Client_Types/client_types/index.html" },
-  { "name": "Scholarship Filters", "path": "./Production/Scholarship_Filters/scholarship_filters/index.html" },
+  { "name": "Scholarship Filters", "path": "./Production/Scholarship_Filters/check_scholarship_filter/index.html" },
   { "name": "Check User ULI", "path": "./Production/Check_User_ULI/check_user_uli/index.html" },
   { "name": "Fetch Learner Schedule", "path": "./Production/Fetch_Learner_Schedules/learner_schedules/index.html"}
 ]
