@@ -10,5 +10,6 @@
   { "name": "Fetch Learner Schedule", "path": "./Production/Fetch_Learner_Schedules/learner_schedules/index.html"},
   { "name": "Province", "path": "./Production/Province/fetch_provinces/index.html"},
   { "name": "Cities", "path": "./Production/Cities/fetch_cities/index.html"},
-  { "name": "Regions", "path": "./Production/Regions/fetch_regions/index.html"}
+  { "name": "Regions", "path": "./Production/Regions/fetch_regions/index.html"},
+  { "name": "Get Student Attendance", "path": "./Production/Get_Student_Attendance/get_student_attendance/index.html"}
 ]
