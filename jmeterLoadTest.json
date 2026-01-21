@@ -21,5 +21,6 @@
   { "name": "Stop Class", "path": "./Staging/Stop_Class/stop_class/index.html"},
   { "name": "Learner Registration", "path": "./Staging/Learner_Registration/learner_registration/index.html"},
   { "name": "Learner Login", "path": "./Staging/Learner_Login/learner_login/index.html"},
-  { "name": "Trainer Login", "path": "./Staging/Auth_LogIn_Trainer/auth_login_trainer/index.html"}
+  { "name": "Trainer Login", "path": "./Staging/Trainer_Login/auth_login_trainer/index.html"},
+  { "name": "Enroll", "path": "./Staging/Enrolls/enroll/index.html"}
 ]
