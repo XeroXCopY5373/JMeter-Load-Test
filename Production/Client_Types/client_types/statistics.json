@@ -1,0 +1,34 @@
+{
+  "/api/learner/educational-attainment" : {
+    "transaction" : "/api/learner/educational-attainment",
+    "sampleCount" : 1416,
+    "errorCount" : 1320,
+    "errorPct" : 93.22034,
+    "meanResTime" : 2488.0007062146897,
+    "medianResTime" : 1423.5,
+    "minResTime" : 222.0,
+    "maxResTime" : 28801.0,
+    "pct1ResTime" : 2762.1999999999994,
+    "pct2ResTime" : 5677.899999999636,
+    "pct3ResTime" : 23484.469999999987,
+    "throughput" : 6.4918691173166945,
+    "receivedKBytesPerSec" : 3625.4035435143774,
+    "sentKBytesPerSec" : 1.6229672793291736
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 1416,
+    "errorCount" : 1320,
+    "errorPct" : 93.22034,
+    "meanResTime" : 2488.0007062146897,
+    "medianResTime" : 1423.5,
+    "minResTime" : 222.0,
+    "maxResTime" : 28801.0,
+    "pct1ResTime" : 2762.1999999999994,
+    "pct2ResTime" : 5677.899999999636,
+    "pct3ResTime" : 23484.469999999987,
+    "throughput" : 6.4918691173166945,
+    "receivedKBytesPerSec" : 3625.4035435143774,
+    "sentKBytesPerSec" : 1.6229672793291736
+  }
+}
